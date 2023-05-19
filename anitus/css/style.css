@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    float: left;
+    width: 100%;
+    background-color: #036;
+    display: flex;
+
+}
+
+.logo {
+    float: left;
+    padding: 20px 20px 20px 40px;
+    background-color: #036;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+li a {
+    list-style-type: none;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0 30px;
+    border-bottom: 3px solid #036;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    list-style-type: none;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0 30px;
+    border-bottom: 3px solid #5ccffd;
+}
+
+.blue_wire {
+    background-image: url('../images/blue_wire.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    float: left;
+    width: 100%;
+    padding: 100px 30px;
+}
+
+.blue_text_area {
+    float: left;
+    width: 50%;
+    margin-top: 100px;
+    padding: 30px;
+}
+
+.drilling_person {
+    float: left;
+    width: 50%;
+}
+
+.blue_text_area p {
+    color: #fff;
+}
+
+.blue_text_area h1 {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.blue_text_area h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.blue_wirea {
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.blue_wirea_img {
+    border-radius: 30px;
+}
+
+.play_about {
+    color: #5ccffd;
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.play_about h1 {
+    float: left;
+    width: 100%;
+}
+
+.play_about p {
+    color: #fff;
+    margin-top: 30px;
+    float: left;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #fff;
+}
+.drilling_inven{
+    float: left;
+    width: 100%;
+    background-color: #06294d;
+    padding: 100px 30px;
+}
+.drilling_inven_left{
+    float: left;
+    width: 50%;
+
+}
+.drilling_inven_left h1{ color: #fff;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.drilling_inven_left p{
+    color: #fff;
+}
+
+.our_customers{ float: left;
+    width: 100%;
+     background: #1e4061; 
+     padding: 70px 0;
+    }
+    .our_customers_text{
+        text-align: center;
+        color: #fff;
+        font-size: 30px;
+        margin: 40px 0;
+    }
+    .our_customers_log{
+        display: flex;
+        width: 100%;
+    }
+    .our_customers_log div{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    footer{float: left;
+    width: 100%;
+background: #02203d;
+color: #fff;
+padding: 100px 0;
+}
+footer div{
+    color: #fff;
+    width: 25%;
+    float: left;
+}
+li{list-style-type: none;}
+
+footer h3{
+    margin-bottom: 30px;
+}
+footer p{margin-bottom: 20px;}
+footer li{ margin-bottom: 20px;}
